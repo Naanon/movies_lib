@@ -45,7 +45,7 @@ Web Application builded with [ReactJS](https://reactjs.org/) which consume the m
 ## 4. Installation
 ### 4.1 Clone the Repository
    ```sh
-   git clone git@github.com:Naanon/movies_lib.git
+   git clone https://github.com/Naanon/movies_lib.git
    ```
 ### 4.2 Access the project directory  
    ```sh
