@@ -20,7 +20,7 @@ Web Application builded with [ReactJS](https://reactjs.org/) which consume the m
 ## 2. Layouts
 
 ### 2.1 Main Page
-![](images/1.png)
+<img src="images/1.png" width="700"/>
 
 ### 2.2 Search for Movies
 ![](images/2.png)
