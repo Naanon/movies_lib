@@ -20,13 +20,13 @@ Web Application builded with [ReactJS](https://reactjs.org/) which consume the m
 ## 2. Layouts
 
 ### 2.1 Main Page
-![1](https://user-images.githubusercontent.com/44070893/192629864-3986d586-b810-4c06-b416-ca53d1eab583.png)
+![](images/1.png)
 
 ### 2.2 Search for Movies
-![2](https://user-images.githubusercontent.com/44070893/192629879-ba5b3416-c1a4-4566-b8fe-23626b1b9b02.png)
+
 
 ### 2.3 Movie Details
-![3](https://user-images.githubusercontent.com/44070893/192629888-8c644dc7-95c2-4a89-99d7-5fb2857176ec.png)
+
 
 ## 3. Prerequisites
 
