@@ -20,17 +20,13 @@ Web Application builded with [ReactJS](https://reactjs.org/) which consume the m
 ## 2. Layouts
 
 ### 2.1 Main Page
-<div align="center">
-    <img src="![1](https://user-images.githubusercontent.com/44070893/192618335-6ba37986-64b0-4d50-a632-aff850b24250.png)" width="700px"/>
-</div>
+![1](https://user-images.githubusercontent.com/44070893/192629864-3986d586-b810-4c06-b416-ca53d1eab583.png)
+
 ### 2.2 Search for Movies
-<div align="center">
-    <img src="![2](https://user-images.githubusercontent.com/44070893/192618355-ba73f881-1b1c-4fce-a678-6c9685c9a541.png)" width="700px"/>
-</div>
+![2](https://user-images.githubusercontent.com/44070893/192629879-ba5b3416-c1a4-4566-b8fe-23626b1b9b02.png)
+
 ### 2.3 Movie Details
-<div align="center">
-    <img src="![3](https://user-images.githubusercontent.com/44070893/192618384-73a5c577-4e83-4839-b0dc-3a8c0a0691ad.png)" width="700px"/>
-</div>
+![3](https://user-images.githubusercontent.com/44070893/192629888-8c644dc7-95c2-4a89-99d7-5fb2857176ec.png)
 
 ## 3. Prerequisites
 
@@ -45,7 +41,7 @@ Web Application builded with [ReactJS](https://reactjs.org/) which consume the m
 ## 4. Installation
 ### 4.1 Clone the Repository
    ```sh
-   git clone git@github.com:Naanon/movies_lib.git
+   git clone https://github.com/Naanon/movies_lib.git
    ```
 ### 4.2 Access the project directory  
    ```sh
@@ -54,5 +50,5 @@ Web Application builded with [ReactJS](https://reactjs.org/) which consume the m
 ### 4.3 Install the Dependencies
    > Web Application Dependencies
    ```sh
-   cd movies_lib && npm install
+   npm install
    ```
