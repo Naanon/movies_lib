@@ -20,13 +20,13 @@ Web Application builded with [ReactJS](https://reactjs.org/) which consume the m
 ## 2. Layouts
 
 ### 2.1 Main Page
-<img src="images/1.png" width="700"/>
+<img src="images/1.png"/>
 
 ### 2.2 Search for Movies
-![](images/2.png)
+<img src="images/2.png"/>
 
 ### 2.3 Movie Details
-![](images/3.png)
+<img src="images/3.png"/>
 
 ## 3. Prerequisites
 
