@@ -23,10 +23,10 @@ Web Application builded with [ReactJS](https://reactjs.org/) which consume the m
 ![](images/1.png)
 
 ### 2.2 Search for Movies
-
+![](images/2.png)
 
 ### 2.3 Movie Details
-
+![](images/3.png)
 
 ## 3. Prerequisites
 
