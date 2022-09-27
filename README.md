@@ -54,5 +54,5 @@ Web Application builded with [ReactJS](https://reactjs.org/) which consume the m
 ### 4.3 Install the Dependencies
    > Web Application Dependencies
    ```sh
-   cd movies_lib && npm install
+   npm install
    ```
