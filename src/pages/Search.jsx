@@ -21,7 +21,7 @@ export function Search() {
   }
 
   useEffect(() => {
-    const searchWithQueryUrl = `${searchUrl}?${apiKey}&query=${query}`
+    const searchWithQueryUrl = `${searchUrl}?query=${query}&api_key=${apiKey}`
 
     getSearchedMovies(searchWithQueryUrl)
   }, [query])

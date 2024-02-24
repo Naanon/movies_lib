@@ -28,7 +28,7 @@ export function Movie() {
   }
 
   useEffect(() => {
-    axios(`${moviesURL}${id}?${apiKey}`).then(response => {
+    axios(`${moviesURL}${id}?api_key=${apiKey}`).then(response => {
       setMovie(response.data)
     })
   }, [])

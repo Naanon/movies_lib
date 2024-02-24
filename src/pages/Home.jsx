@@ -12,7 +12,7 @@ export function Home() {
   const [topMovies, setTopMovies] = useState([])
 
   useEffect(() => {
-    axios(`${moviesURL}top_rated?${apiKey}`).then(response => {
+    axios(`${moviesURL}top_rated?api_key=${apiKey}`).then(response => {
       setTopMovies(response.data.results)
     })
   }, [])
