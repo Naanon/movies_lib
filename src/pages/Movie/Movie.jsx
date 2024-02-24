@@ -40,7 +40,7 @@ export function Movie() {
           <MovieCard
             movie={movie}
             showLink={false}
-            width="full"
+            width="w-full"
           />
           <p className="text-center text-5.2 mb-8">{movie.tagline}</p>
           <div className="mb-6">
