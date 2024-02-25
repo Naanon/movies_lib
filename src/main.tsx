@@ -6,7 +6,7 @@ import './globals.css'
 
 import { App } from './App'
 import { Home } from './pages/Home'
-import { MovieDetails } from './pages/Movie/MovieDetails'
+import { MovieDetails } from './pages/MovieDetails'
 import { Search } from './pages/Search'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(

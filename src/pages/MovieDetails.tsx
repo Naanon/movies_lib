@@ -7,11 +7,11 @@ import {
   BsFillFileEarmarkTextFill
 } from 'react-icons/bs'
 
-import { MovieCard } from '../../components/MovieCard'
+import { MovieCard } from '../components/MovieCard'
 
-import { api } from '../../services/api'
+import { api } from '../services/api'
 
-import { MoviesProps } from '../Home'
+import { MoviesProps } from './Home'
 
 // import './Movie.css'
 
