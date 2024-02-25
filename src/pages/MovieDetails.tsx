@@ -8,12 +8,9 @@ import {
 } from 'react-icons/bs'
 
 import { MovieCard } from '../components/MovieCard'
-
-import { api } from '../services/api'
-
 import { MoviesProps } from './Home'
 
-// import './Movie.css'
+import { api } from '../services/api'
 
 const apiKey = import.meta.env.VITE_API_KEY
 
@@ -37,7 +34,7 @@ export function MovieDetails() {
   }, [])
 
   return (
-    <div className="text-white flex flex-col max-w-1.5xl my-8 mx-auto">
+    <div className="text-white flex flex-col max-w-1.5xl mt-32 mb-8 mx-auto">
       {movie && (
         <>
           <MovieCard

@@ -16,11 +16,11 @@ export function Navbar() {
   }
 
   return (
-    <nav className="flex justify-between items-center py-4 px-8 bg-black-500">
+    <nav className="flex justify-between items-center py-4 px-8 bg-black-500 w-full top-0 fixed">
       <h2>
         <Link
           to="/"
-          className="flex justify-center items-center gap-2 border border-white"
+          className="flex justify-center items-center gap-2 font-semibold"
         >
           <BiCameraMovie /> Movies Lib
         </Link>
@@ -34,8 +34,8 @@ export function Navbar() {
           value={search}
         />
         <button
-        type='submit'
-        className="bg-yellow-250 border-2 border-yellow-250 rounded text-black p-1.2 text-5.2 flex items-center cursor-pointer duration-400 hover:bg-transparent hover:text-yellow-250"
+          type='submit'
+          className="bg-yellow-250 border-2 border-yellow-250 rounded text-black p-1.2 text-5.2 flex items-center cursor-pointer duration-400 hover:bg-transparent hover:text-yellow-250"
         >
           <BiSearchAlt2 />
         </button>

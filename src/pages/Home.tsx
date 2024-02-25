@@ -1,9 +1,8 @@
 import { useState, useEffect } from 'react'
+
 import { MovieCard } from '../components/MovieCard'
 
 import { api } from '../services/api'
-
-// import './MoviesGrid.css'
 
 export type MoviesProps = {
   id?: number
@@ -36,7 +35,7 @@ export function Home() {
       <div>
         <h2 className="text-white text-4xl mt-8 mx-0 mb-4 text-center">Best Movies</h2>
         <div className="flex flex-wrap justify-between p-8 max-w-3.0xl my-0 mx-auto">
-          {topMovies.length > 0 && topMovies.map((movie) =>
+          {topMovies.map((movie) =>
             <MovieCard
               key={movie.id}
               id={movie.id}
