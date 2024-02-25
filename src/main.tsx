@@ -6,16 +6,16 @@ import './globals.css'
 
 import { App } from './App'
 import { Home } from './pages/Home'
-import { Movie } from './pages/Movie/Movie'
+import { MovieDetails } from './pages/Movie/MovieDetails'
 import { Search } from './pages/Search'
 
-ReactDOM.createRoot(document.getElementById('root')).render(
+ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
     <BrowserRouter>
       <Routes>
         <Route element={<App />}>
           <Route path="/" element={<Home />} />
-          <Route path="movie/:id" element={<Movie />} />
+          <Route path="movie/:id" element={<MovieDetails />} />
           <Route path="search" element={<Search />} />
         </Route>
       </Routes>

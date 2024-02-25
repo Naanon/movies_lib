@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import { useSearchParams } from 'react-router-dom'
 import { MovieCard } from '../components/MovieCard'
+import { MoviesProps } from './Home'
 
 // import './MoviesGrid.css'
 
@@ -10,10 +11,10 @@ const apiKey = import.meta.env.VITE_API_KEY
 export function Search() {
   const [searchParams] = useSearchParams()
 
-  const [movies, setMovies] = useState([])
+  const [movies, setMovies] = useState<MoviesProps[]>([])
   const query = searchParams.get('q')
 
-  const getSearchedMovies = async (url) => {
+  const getSearchedMovies = async (url: string) => {
     const response = await fetch(url)
     const data = await response.json()
 
@@ -33,7 +34,15 @@ export function Search() {
       </h2>
       <div className="flex flex-wrap justify-between p-8 max-w-3.0xl my-0 mx-auto">
         {movies.length > 0 && movies.map((movie) =>
-          <MovieCard key={movie.id} movie={movie} />
+          <MovieCard
+            key={movie.id}
+            id={movie.id}
+            poster_path={movie.poster_path}
+            title={movie.title}
+            vote_average={movie.vote_average}
+            showLink={true}
+            posterWidth="w-3/10"
+          />
         )}
       </div>
     </div>

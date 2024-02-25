@@ -9,26 +9,29 @@ import {
 
 import { MovieCard } from '../../components/MovieCard'
 
-import axios from 'axios'
+import { api } from '../../services/api'
+
+import { MoviesProps } from '../Home'
 
 // import './Movie.css'
 
-const moviesURL = import.meta.env.VITE_API
 const apiKey = import.meta.env.VITE_API_KEY
 
-export function Movie() {
+export function MovieDetails() {
   const { id } = useParams()
-  const [movie, setMovie] = useState(null)
+  const [movie, setMovie] = useState<MoviesProps>()
 
-  const formatCurrency = (number) => {
-    return number.toLocaleString("en-US", {
-      style: "currency",
-      currency: "USD"
-    })
+  const formatCurrency = (number?: number) => {
+    return (
+      number?.toLocaleString("en-US", {
+        style: "currency",
+        currency: "USD"
+      })
+    )
   }
 
   useEffect(() => {
-    axios(`${moviesURL}${id}?api_key=${apiKey}`).then(response => {
+    api(`/movie/${id}?api_key=${apiKey}`).then(response => {
       setMovie(response.data)
     })
   }, [])
@@ -38,9 +41,11 @@ export function Movie() {
       {movie && (
         <>
           <MovieCard
-            movie={movie}
+            poster_path={movie.poster_path}
+            title={movie.title}
+            vote_average={movie.vote_average}
             showLink={false}
-            width="w-full"
+            posterWidth="w-full"
           />
           <p className="text-center text-5.2 mb-8">{movie.tagline}</p>
           <div className="mb-6">
