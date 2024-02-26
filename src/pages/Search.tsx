@@ -25,7 +25,7 @@ export function Search() {
       {movies.length ? (
         <div className="mt-32">
           <h2 className="text-white text-4xl mb-4 text-center">
-            Results for: <span className="text-yellow-250">{query}</span>
+            Results for: <span className="text-blue-250">{query}</span>
           </h2>
           <div className="flex flex-wrap justify-between p-8 max-w-3.0xl my-0 mx-auto">
             {movies.map((movie) => (
@@ -44,7 +44,7 @@ export function Search() {
       ) : (
         <div className="h-screen flex items-center justify-center">
           <h2 className="text-white text-4xl text-center">
-            No results found for: <span className="text-yellow-250">{query}</span>
+            No results found for: <span className="text-blue-250">{query}</span>
           </h2>
         </div>
       )}

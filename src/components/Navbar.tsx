@@ -35,7 +35,7 @@ export function Navbar() {
         />
         <button
           type='submit'
-          className="bg-yellow-250 border-2 border-yellow-250 rounded text-black p-1.2 text-5.2 flex items-center cursor-pointer duration-400 hover:bg-transparent hover:text-yellow-250"
+          className="bg-blue-250 border-2 border-blue-250 rounded text-black p-1.2 text-5.2 flex items-center cursor-pointer duration-400 hover:bg-transparent hover:text-blue-250"
         >
           <BiSearchAlt2 />
         </button>

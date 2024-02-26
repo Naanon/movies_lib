@@ -47,25 +47,25 @@ export function MovieDetails() {
           <p className="text-center text-5.2 mb-8">{movie.tagline}</p>
           <div className="mb-6">
             <h3 className="mb-4 flex items-center gap-2">
-              <BsWallet2 className="text-2xl text-yellow-250" /> Budget:
+              <BsWallet2 className="text-2xl text-blue-250" /> Budget:
             </h3>
             <p>US{formatCurrency(movie.budget)}</p>
           </div>
           <div className="mb-6">
             <h3 className="mb-4 flex items-center gap-2">
-              <BsGraphUp className="text-2xl text-yellow-250" /> Box Office:
+              <BsGraphUp className="text-2xl text-blue-250" /> Box Office:
             </h3>
             <p>US{formatCurrency(movie.revenue)}</p>
           </div>
           <div className="mb-6">
             <h3 className="mb-4 flex items-center gap-2">
-              <BsHourglassSplit className="text-2xl text-yellow-250" /> Running Time:
+              <BsHourglassSplit className="text-2xl text-blue-250" /> Running Time:
             </h3>
             <p>{movie.runtime} minutes</p>
           </div>
           <div>
             <h3 className="mb-4 flex items-center gap-2">
-              <BsFillFileEarmarkTextFill className="text-2xl text-yellow-250" /> Description:
+              <BsFillFileEarmarkTextFill className="text-2xl text-blue-250" /> Description:
             </h3>
             <p className="leading-5.6 text-justify">{movie.overview}</p>
           </div>

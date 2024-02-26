@@ -14,10 +14,10 @@
     }
     a {
       @apply no-underline;
-      @apply text-yellow-250;
+      @apply text-blue-250;
       @apply duration-500
     }
     a:hover {
-      @apply text-yellow-450
+      @apply text-blue-450
     }
 }

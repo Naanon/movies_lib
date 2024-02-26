@@ -7,7 +7,7 @@ export default {
       backgroundColor: {
         "black-400": "#111111",
         "black-500": "#121212",
-        "yellow-250": "#F7D354"
+        "blue-250": "#0098C7"
       },
       padding: {
         "0.8": "0.2rem",
@@ -15,7 +15,7 @@ export default {
         "3.2": "0.8rem",
       },
       borderColor: {
-        "yellow-250": "#F7D354"
+        "blue-250": "#0098C7"
       },
       fontSize: {
         "5.2": "1.3rem",
@@ -24,8 +24,8 @@ export default {
         "400": "400ms"
       },
       textColor: {
-        "yellow-250": "#F7D354",
-        "yellow-450": "#B8930C"
+        "blue-250": "#0098C7",
+        "blue-450": "#0047AB"
       },
       lineHeight: {
         "5.6": "1.4rem"
