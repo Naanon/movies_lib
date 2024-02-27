@@ -4,16 +4,16 @@
 
   - [1. Project Description](#1-project-description)
   - [2. Layouts](#2-layouts)
-    - [2.1 Main Page](#21-main-page)
-    - [2.2 Search for Movies](#22-search-for-movies)
-    - [2.3 Movie Details](#23-movie-details)
+    - [2.1. Main Page](#21-main-page)
+    - [2.2. Movie Details](#22-movie-details)
+    - [2.3. Search for Movies](#23-search-for-movies)
   - [3. Prerequisites](#3-prerequisites)
-    - [3.1 Node.js](#31-nodejs)
+    - [3.1. Node.js](#31-nodejs)
     - [3.2. TypeScript](#32-typescript)
   - [4. Installation](#4-installation)
-    - [4.1 Clone the Repository](#41-clone-the-repository)
-    - [4.2 Access the project directory](#42-access-the-project-directory)
-    - [4.3 Install the Dependencies](#43-install-the-dependencies)
+    - [4.1. Clone the Repository](#41-clone-the-repository)
+    - [4.2. Access the project directory](#42-access-the-project-directory)
+    - [4.3. Install the Dependencies](#43-install-the-dependencies)
   - [5. Execute the project](#5-execute-the-project)
     - [5.1. Launch Application](#51-launch-application)
   
@@ -25,10 +25,10 @@ Web Application builded with [ReactJS](https://reactjs.org/) which consume the m
 ### 2.1 Main Page
 <img src="images/1.png"/>
 
-### 2.2 Search for Movies
+### 2.2 Movie Details
 <img src="images/2.png"/>
 
-### 2.3 Movie Details
+### 2.3 Search for Movies
 <img src="images/3.png"/>
 
 ## 3. Prerequisites
