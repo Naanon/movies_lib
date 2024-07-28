@@ -16,7 +16,7 @@
     - [4.3. Install the Dependencies](#43-install-the-dependencies)
   - [5. Execute the project](#5-execute-the-project)
     - [5.1. Rename the example.env File](#51-rename-the-example.env-file)
-    - [5.2. Launch Application](#51-launch-application)
+    - [5.2. Launch Application](#52-launch-application)
   
 ## 1. Project Description
 Web Application builded with [ReactJS](https://reactjs.org/) which consume the movies API called [TMDB](https://developers.themoviedb.org/3/getting-started/introduction), listing the best movies evaluated by critics on the home page, and which also allows the user to use the search bar to perform a search and view the informations of the chosen movie.
