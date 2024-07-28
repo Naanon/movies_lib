@@ -3,7 +3,7 @@ import { FaStar } from 'react-icons/fa'
 
 import { MoviesProps } from '../pages/Home'
 
-const imageUrl = import.meta.env.VITE_IMG
+const imageUrl = import.meta.env.VITE_API_IMG
 
 export function MovieCard({ ...rest }: MoviesProps) {
   return (
