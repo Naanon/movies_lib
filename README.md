@@ -15,7 +15,7 @@
     - [4.2. Access the project directory](#42-access-the-project-directory)
     - [4.3. Install the Dependencies](#43-install-the-dependencies)
   - [5. Execute the project](#5-execute-the-project)
-    - [5.1. Rename the example.env File](#51-rename-the-example.env-file)
+    - [5.1. Rename the example.env File](#51-rename-the-exampleenv-file)
     - [5.2. Launch Application](#52-launch-application)
   
 ## 1. Project Description
